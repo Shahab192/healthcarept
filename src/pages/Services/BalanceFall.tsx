@@ -50,8 +50,8 @@ export default function BalanceFall() {
           <p className="text-lg text-slate-charcoal/70 max-w-3xl">"Our clinic is 100% wheelchair accessible with ample storefront parking at 18856 Amar Rd, Unit #8. We've removed every barrier to your care."</p>
         </div>
 
-        <div className="text-center">
-          <a href="tel:626-667-8600" className="inline-block bg-terracotta text-white px-12 py-4 rounded-full text-lg hover:bg-terracotta/90 transition-colors">
+        <div className="text-center mt-12">
+          <a href="tel:626-667-8600" className="inline-block bg-deep-teal text-white px-12 py-5 rounded-full text-xl font-medium shadow-lg hover:shadow-xl hover:scale-105 transition-all duration-300">
             Schedule Evaluation
           </a>
         </div>

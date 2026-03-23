@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <url>
+    <loc>https://www.healthcarept.com/</loc>
+    <lastmod>2026-03-22</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>1.0</priority>
+  </url>
+  <url>
+    <loc>https://www.healthcarept.com/service-area</loc>
+    <lastmod>2026-03-22</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <!-- Services -->
+  <url><loc>https://www.healthcarept.com/services/back-spine</loc><lastmod>2026-03-22</lastmod></url>
+  <url><loc>https://www.healthcarept.com/services/balance-fall</loc><lastmod>2026-03-22</lastmod></url>
+  <url><loc>https://www.healthcarept.com/services/post-surgical</loc><lastmod>2026-03-22</lastmod></url>
+  <url><loc>https://www.healthcarept.com/services/sports-injury</loc><lastmod>2026-03-22</lastmod></url>
+  <!-- Cities -->
+  <url><loc>https://www.healthcarept.com/cities/walnut</loc><lastmod>2026-03-22</lastmod></url>
+  <url><loc>https://www.healthcarept.com/cities/diamond-bar</loc><lastmod>2026-03-22</lastmod></url>
+  <url><loc>https://www.healthcarept.com/cities/west-covina</loc><lastmod>2026-03-22</lastmod></url>
+  <url><loc>https://www.healthcarept.com/cities/rowland-heights</loc><lastmod>2026-03-22</lastmod></url>
+  <url><loc>https://www.healthcarept.com/cities/pomona</loc><lastmod>2026-03-22</lastmod></url>
+  <url><loc>https://www.healthcarept.com/cities/city-of-industry</loc><lastmod>2026-03-22</lastmod></url>
+  <url><loc>https://www.healthcarept.com/cities/covina</loc><lastmod>2026-03-22</lastmod></url>
+  <url><loc>https://www.healthcarept.com/cities/san-dimas</loc><lastmod>2026-03-22</lastmod></url>
+</urlset>

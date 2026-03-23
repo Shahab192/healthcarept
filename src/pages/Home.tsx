@@ -92,13 +92,42 @@ export default function Home() {
 
       {/* Our Facility Section */}
       <section className="py-24 px-4 border-t border-slate-charcoal/10">
-        <div className="max-w-7xl mx-auto grid md:grid-cols-2 gap-12 items-center">
-          <div>
-            <h2 className="text-4xl font-serif mb-8 tracking-[0.05em]">Our Facility</h2>
-            <p className="text-lg text-slate-charcoal/70">Experience recovery in our modern, wheelchair-accessible clinic located in the heart of the Amar Road professional plaza. Designed for comfort and healing, our space provides a tranquil environment for your physical therapy journey.</p>
+        <div className="max-w-7xl mx-auto">
+          <h2 className="text-5xl font-serif mb-16 tracking-tight text-slate-charcoal text-center">Walnut’s Clinic for Precision Healing.</h2>
+          
+          <div className="grid md:grid-cols-3 gap-8">
+            {/* Card 1: Comfort */}
+            <div className="bg-[#F9F8F4] border border-slate-charcoal/5 p-10 rounded-3xl">
+              <div className="mb-6">
+                <svg className="w-12 h-12 text-deep-teal" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M3 12l2-2m0 0l7-7 7 7M5 10v10a1 1 0 001 1h3m10-11l2 2m-2-2v10a1 1 0 01-1 1h-3m-6 0a1 1 0 001-1v-4a1 1 0 011-1h2a1 1 0 011 1v4a1 1 0 001 1m-6 0h6" /></svg>
+              </div>
+              <h3 className="text-2xl font-serif mb-4 text-slate-charcoal">A Tranquil Sanctuary.</h3>
+              <p className="text-slate-charcoal/70">We provide a modern, calm, and wheelchair-accessible space located directly in the heart of the Amar Road, Walnut West Plaza.</p>
+            </div>
+
+            {/* Card 2: Excellence */}
+            <div className="bg-[#F9F8F4] border border-slate-charcoal/5 p-10 rounded-3xl">
+              <div className="mb-6">
+                <svg className="w-12 h-12 text-deep-teal" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M16 7a4 4 0 11-8 0 4 4 0 018 0zM12 14a7 7 0 00-7 7h14a7 7 0 00-7-7z" /></svg>
+              </div>
+              <h3 className="text-2xl font-serif mb-4 text-slate-charcoal">Doctor-Led Care.</h3>
+              <p className="text-slate-charcoal/70">You will always be treated by Dr. Saeed directly—not by an assistant. We prioritize unhurried, one-on-one manual therapy sessions.</p>
+            </div>
+
+            {/* Card 3: Action */}
+            <div className="bg-[#F9F8F4] border border-slate-charcoal/5 p-10 rounded-3xl flex flex-col">
+              <div className="mb-6">
+                <svg className="w-12 h-12 text-deep-teal" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M13 10V3L4 14h7v7l9-11h-7z" /></svg>
+              </div>
+              <h3 className="text-2xl font-serif mb-4 text-slate-charcoal">Start Your Recovery.</h3>
+              <p className="text-slate-charcoal/70 mb-8 flex-grow">No referral needed. Direct Access allows you to get evaluated and begin healing today.</p>
+            </div>
           </div>
-          <div className="bg-slate-charcoal/10 rounded-3xl h-80 flex items-center justify-center text-slate-charcoal/50">
-            [Photo of Treatment Space Placeholder]
+          
+          <div className="text-center mt-16">
+            <a href="tel:626-667-8600" className="inline-block bg-deep-teal text-white px-12 py-5 rounded-full text-xl font-medium shadow-lg hover:shadow-xl hover:scale-105 transition-all duration-300">
+              Schedule Appointment
+            </a>
           </div>
         </div>
       </section>

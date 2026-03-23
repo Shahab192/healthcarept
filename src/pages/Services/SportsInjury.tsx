@@ -54,6 +54,12 @@ export default function SportsInjury() {
           <h2 className="text-3xl font-serif mb-6">The HCPT Difference</h2>
           <p className="text-lg text-slate-charcoal/70 max-w-3xl">"Our sports rehab is performance-based. We use progressive loading and agility drills to ensure your first game back isn't your last."</p>
         </div>
+
+        <div className="text-center mt-12">
+          <a href="tel:626-667-8600" className="inline-block bg-deep-teal text-white px-12 py-5 rounded-full text-xl font-medium shadow-lg hover:shadow-xl hover:scale-105 transition-all duration-300">
+            Schedule Evaluation
+          </a>
+        </div>
       </div>
     </motion.div>
   );
