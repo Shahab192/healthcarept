@@ -20,6 +20,12 @@ export default function Footer() {
         </div>
         <div className="mt-16 border-t border-paper-white/10 pt-8 text-center text-paper-white/50 text-sm">
           <p>&copy; 2026 HealthCare Physical Therapy, Inc. All rights reserved.</p>
+          <p className="mt-2">
+            Designed and Built by{' '}
+            <a href="https://buildandbloom.studio" target="_blank" rel="noopener noreferrer" className="hover:text-white transition-colors">
+              BuildandBloom.Studio
+            </a>
+          </p>
         </div>
       </div>
     </footer>
